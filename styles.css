@@ -1,0 +1,26 @@
+:root {
+    --primary-custom: #0d6efd;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+.foto-perfil {
+    max-width: 180px !important;
+    height: 180px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+
+section { padding: 60px 0; }
+
+.progress-bar { background-color: var(--primary-custom); }
+
+.card {
+    transition: transform 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
